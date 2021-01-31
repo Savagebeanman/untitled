@@ -1,5 +1,6 @@
 while True:
-    if input.acceleration(Dimension.X) < 0 or input.acceleration(Dimension.X) > 0 :
+    if input.acceleration(Dimension.Y) < 0 or input.acceleration(Dimension.Y) > 0 :
+        light.show_animation_frame(light.rainbowAnimation)
         music.wawawawaa.play_until_done()
     else:
         music.stop_all_sounds()
